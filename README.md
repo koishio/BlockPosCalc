@@ -1,31 +1,35 @@
 # BlockPosCalc
 
-## 介绍:
+**English** | [简体中文](README_cn.md)
 
-简易方块坐标计算器  
-用于计算圆等图形的坐标  
+## Introduction:
 
-## 背景:
+Simple Block Coordinate Calculator  
+Used to calculate the coordinates of shapes such as circles  
 
-在MC里建圆总是建不圆，所以做了这个计算器，方便自己，也方便大家使用  
-输入圆心和半径，就可以知道圆右上部分的坐标  
-从圆的上顶点开始，依次显示下一个横坐标对应的纵坐标  
-目前只有圆，未来可能会添加其他图形(看我能不能用得到吧)  
+## Background:
 
-## 使用:
+It is always hard to build a circle in minecraft  
+So I made this calculator to make it convenient for myself and for everyone to use  
+Enter the center and radius of the circle  
+This program will show the coordinates of the upper right part of the circle  
+At the moment there are only circles, and other shapes may be added in the future (if I need it)  
 
-1. 从Releases界面下载合适的版本
-2. 双击exe开始运行
+## Usage:
 
-## 输出结果说明:
+1. Download it from Realese
+2. Double-click exe file
 
-`x`和`y`为圆上各点的坐标  
-`disp_x`和`disp_y`为当圆心坐标为`(0,0)`时，圆上各点的坐标  
-`count`为同一高度有多少个方块，纵坐标发生变化时，颜色也会改变，方便辨认  
-这样就知道横着建多少方块后，应该换到下一格  
-后半部分中，一个横坐标范围内可能会有多个方块，结果显示的是最上面的  
-这种情况直接把前半部分对称过去就可以  
+## Description of the output:
 
-## 构建
+`x` and `y` are the coordinates of the blocks on the circle  
+`disp_x` and `disp_y` is the coordinate of each point on the circle when the center coordinate of the circle is `(0,0)`  
+`count` is how many blocks there are at the same height  
+When the ordinate changes, the color will also change for easy identification  
+In the last 45°, there may be a vertical column of blocks on the circle, and the result shows the top block  
+Since the axis of symmetry in the upper right part is a straight line with a horizontal declination angle of 45°  
+the rest of the part can be easily built according to the symmetry  
 
-用Visual Studio 2022打开解决方案，选择你要构建的项目，点击`生成(B)`-`生成解决方案(F7)`直接构建即可  
+## Build
+
+Open the solution by Visual Studio 2022 and build it generally  
