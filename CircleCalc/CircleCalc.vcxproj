@@ -25,6 +25,10 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="misc.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="CHANGELOG.md" />
+    <None Include="CHANGELOG_cn.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
