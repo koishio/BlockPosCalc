@@ -1,6 +1,6 @@
 #pragma once
 
-constexpr char VERSION[] = "1.0";   // 版本号
+constexpr char VERSION[] = "1.1";   // 版本号
 constexpr char nl = '\n';           // 换行
 constexpr char sp = ' ';            // 空格
 constexpr char info[] = "\033[38;5;27m[*]\033[0m ";     // 蓝色提示
@@ -24,4 +24,4 @@ extern void SetCoordinate(std::string point_name, double* x, double* y);
 extern void CalculateCirclePos(double (*dist)[2], double radius, ALGORITHM algorithm);
 
 // 显示结果
-extern void ShowResult(double (*result)[2], unsigned int point_count, double base_x, double base_y);
+extern void ShowResult(const double (*result)[2], unsigned int point_count, double base_x, double base_y);

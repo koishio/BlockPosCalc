@@ -60,7 +60,7 @@ void CalculateCirclePos(double (*dist)[2], double radius, ALGORITHM algorithm)
     }
 }
 
-void ShowResult(double (*result)[2], unsigned int point_count, double base_x, double base_y)
+void ShowResult(const double (*result)[2], unsigned int point_count, double base_x, double base_y)
 {
     std::cout << "======================| ½á ¹û |======================" << nl << nl;
     std::cout << "=====|x|=====|y|=====|disp_x|=====|disp_y|=====|count|" << nl;
