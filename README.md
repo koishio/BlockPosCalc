@@ -1,31 +1,35 @@
-# BlockPosCalc
+ï»¿# BlockPosCalc
 
-## ½éÉÜ:
+**English** | [ç®€ä½“ä¸­æ–‡](README_cn.md)
 
-¼òÒ×·½¿é×ø±ê¼ÆËãÆ÷  
-ÓÃÓÚ¼ÆËãÔ²µÈÍ¼ĞÎµÄ×ø±ê  
+## Introduction:
 
-## ±³¾°:
+Simple Block Coordinate Calculator  
+Used to calculate the coordinates of shapes such as circles  
 
-ÔÚMCÀï½¨Ô²×ÜÊÇ½¨²»Ô²£¬ËùÒÔ×öÁËÕâ¸ö¼ÆËãÆ÷£¬·½±ã×Ô¼º£¬Ò²·½±ã´ó¼ÒÊ¹ÓÃ  
-ÊäÈëÔ²ĞÄºÍ°ë¾¶£¬¾Í¿ÉÒÔÖªµÀÔ²ÓÒÉÏ²¿·ÖµÄ×ø±ê  
-´ÓÔ²µÄÉÏ¶¥µã¿ªÊ¼£¬ÒÀ´ÎÏÔÊ¾ÏÂÒ»¸öºá×ø±ê¶ÔÓ¦µÄ×İ×ø±ê  
-Ä¿Ç°Ö»ÓĞÔ²£¬Î´À´¿ÉÄÜ»áÌí¼ÓÆäËûÍ¼ĞÎ(¿´ÎÒÄÜ²»ÄÜÓÃµÃµ½°É)  
+## Background:
 
-## Ê¹ÓÃ:
+It is always hard to build a circle in minecraft  
+So I made this calculator to make it convenient for myself and for everyone to use  
+Enter the center and radius of the circle  
+This program will show the coordinates of the upper right part of the circle  
+At the moment there are only circles, and other shapes may be added in the future (if I need it)  
 
-1. ´ÓReleases½çÃæÏÂÔØºÏÊÊµÄ°æ±¾
-2. Ë«»÷exe¿ªÊ¼ÔËĞĞ
+## Usage:
 
-## Êä³ö½á¹ûËµÃ÷:
+1. Download it from Realese
+2. Double-click exe file
 
-`x`ºÍ`y`ÎªÔ²ÉÏ¸÷µãµÄ×ø±ê  
-`disp_x`ºÍ`disp_y`Îªµ±Ô²ĞÄ×ø±êÎª`(0,0)`Ê±£¬Ô²ÉÏ¸÷µãµÄ×ø±ê  
-`count`ÎªÍ¬Ò»¸ß¶ÈÓĞ¶àÉÙ¸ö·½¿é£¬×İ×ø±ê·¢Éú±ä»¯Ê±£¬ÑÕÉ«Ò²»á¸Ä±ä£¬·½±ã±æÈÏ  
-ÕâÑù¾ÍÖªµÀºá×Å½¨¶àÉÙ·½¿éºó£¬Ó¦¸Ã»»µ½ÏÂÒ»¸ñ  
-ºó°ë²¿·ÖÖĞ£¬Ò»¸öºá×ø±ê·¶Î§ÄÚ¿ÉÄÜ»áÓĞ¶à¸ö·½¿é£¬½á¹ûÏÔÊ¾µÄÊÇ×îÉÏÃæµÄ  
-ÕâÖÖÇé¿öÖ±½Ó°ÑÇ°°ë²¿·Ö¶Ô³Æ¹ıÈ¥¾Í¿ÉÒÔ  
+## Description of the output:
 
-## ¹¹½¨
+`x` and `y` are the coordinates of the blocks on the circle  
+`disp_x` and `disp_y` is the coordinate of each point on the circle when the center coordinate of the circle is `(0,0)`  
+`count` is how many blocks there are at the same height  
+When the ordinate changes, the color will also change for easy identification  
+In the last 45Â°, there may be a vertical column of blocks on the circle, and the result shows the top block  
+Since the axis of symmetry in the upper right part is a straight line with a horizontal declination angle of 45Â°  
+the rest of the part can be easily built according to the symmetry  
 
-ÓÃVisual Studio 2022´ò¿ª½â¾ö·½°¸£¬Ñ¡ÔñÄãÒª¹¹½¨µÄÏîÄ¿£¬µã»÷`Éú³É(B)`-`Éú³É½â¾ö·½°¸(F7)`Ö±½Ó¹¹½¨¼´¿É  
+## Build
+
+Open the solution by Visual Studio 2022 and build it generally  
