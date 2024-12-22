@@ -25,8 +25,8 @@ At the moment there are only circles, and other shapes may be added in the futur
 `disp_x` and `disp_y` is the coordinate of each point on the circle when the center coordinate of the circle is `(0,0)`  
 `count` is how many blocks there are at the same height  
 When the ordinate changes, the color will also change for easy identification  
-In the last 45°, there may be a vertical column of blocks on the circle, and the result shows the top block  
-Since the axis of symmetry in the upper right part is a straight line with a horizontal declination angle of 45°  
+In the last 45��, there may be a vertical column of blocks on the circle, and the result shows the top block  
+Since the axis of symmetry in the upper right part is a straight line with a horizontal declination angle of 45��  
 the rest of the part can be easily built according to the symmetry  
 
 ## Build
